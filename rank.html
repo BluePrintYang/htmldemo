@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>排行榜</title>
+    <style type="text/css">
+        p {
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .listBig {
+            width: 268px;
+            height: 445px;
+            border: 1px dotted #ccc;
+        }
+
+        .listBig .options {
+            width: 100%;
+            height: 33px;
+            line-height: 33px;
+            /*border:1px solid red;*/
+            padding-bottom: 5px;
+            position: relative;
+        }
+
+        .listBig .options .orders {
+            width: 19px;
+            height: 28px;
+
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .schoolMain {
+            height: 100%;
+            width: 223px;
+            position: absolute;
+            left: 28px;
+            top: 0;
+            right: 22px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .schoolName {
+            width: 150px;
+            height: 28px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .schoolName img {
+            height: 100%;
+            width: 28px;
+            float: left;
+        }
+
+        .schoolName p {
+            float: left;
+            margin-left: 7px;
+
+        }
+
+        .options .people {
+            width: 73px;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .options .people p {
+            /* fla */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="listBig">
+        <div class="options">
+            <div class="orders">
+                <span>1.</span>
+            </div>
+            <div class="schoolMain">
+                <div class="schoolName">
+                    <img src="./img/wife.jpg">
+                    <p>大美女</p>
+                </div>
+                <div class="people">
+                    <p>1000000 <span></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="options">
+            <div class="orders">
+                <span>2.</span>
+            </div>
+            <div class="schoolMain">
+                <div class="schoolName">
+                    <img src="./img/me.png">
+                    <p>。。。</p>
+                </div>
+                <div class="people">
+                    <p>0 <span></span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
